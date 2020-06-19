@@ -18,10 +18,17 @@ body {
 .construction-banner-text {
     background-color: gold;
 
-    font-size: 2em;
     font-stretch: condensed;
 
     padding: 20px
+}
+
+.construction-banner-text > h1 {
+    font-size: min(9.5vw, 6em)
+}
+
+.construction-banner-text > h2 {
+    font-size: min(6.5vw, 4.1em)
 }
 
 .construction-banner-detail {
@@ -32,19 +39,31 @@ body {
 
 .contact-info {
     color: white;
+    background-color: black;
 
-    position: fixed;
-    left: 0;
-    bottom: 25px;
-    width: 100%;
+    padding: 25px 25px 0 25px;
+
+    border-radius: 10px 10px 0 0;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(80vw, 800px);
+
     text-align: center;
+}
+
+.contact-info > h3 {
+    font-size: min(3.5vh, 1.9em);
 }
 
 .logos {
     margin-top: 7.5px;
+    margin-bottom: 25px;
 }
 
 .logo {
-    width: 40px;
-    padding: 10px;
+    height: min(6vh, 6em);
+    padding: 15px;
 }
