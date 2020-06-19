@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.construction-banner {
+    text-align: center;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.construction-banner-text {
+    background-color: gold;
+
+    font-size: 2em;
+    font-stretch: condensed;
+
+    padding: 20px
+}
+
+.construction-banner-detail {
+    background: repeating-linear-gradient(115deg, gold, gold 30px, black, 30px, black 60px);
+
+    padding: 40px 0
+}
+
+.contact-info {
+    color: white;
+
+    position: fixed;
+    left: 0;
+    bottom: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.logos {
+    margin-top: 7.5px;
+}
+
+.logo {
+    width: 40px;
+    padding: 10px;
+}
